@@ -50,7 +50,13 @@ nav{
     align-items: center;
     color: bisque;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 40px;
+}
+
+.navBar ul li:hover{
+    background-color: rgba(250, 235, 215, 0.151);
+    border-radius: 16px;
+    padding: 8px;
 }
 
 .banner{
@@ -365,7 +371,7 @@ li:last-child{
     background-color: rgb(32, 32, 32);
     text-align: center;
     font-size: medium;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .recetas .card-group{
@@ -377,6 +383,14 @@ li:last-child{
     font-size: x-large;
 }
 
+.recetas .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
 .recetas .card{
     background-color:rgba(196, 153, 104, 0.767);
     font-weight:bold;
@@ -384,9 +398,9 @@ li:last-child{
 
 .recetas p{
     font-size: small;
-    padding: 0px 30px 0px 30px;
     text-align: start;
     color: white;
+    align-self: center;
 }
 
 .recetas img{
@@ -397,11 +411,21 @@ li:last-child{
 }
 
 #recetasLink{
-    align-items: center;
+    text-align: center;
+   
 }
 
 #recetasLink a{
     text-decoration: none;
+    color: #6c5308;
+    border:solid 2px #6c5308 ;
+    padding: 2px 15px 2px 15px;
+    align-self: flex-end;
+}
+
+.encontranos{
+    padding-top: 60px;
+
 }
 
 footer {
@@ -409,6 +433,7 @@ footer {
     width: 100%;
     justify-content: space-evenly;
     font-size: medium;
+    padding: 50px;
 }
 
 footer a {
